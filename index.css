@@ -464,6 +464,9 @@ footer{
     nav{
         display: none;
     }
+    .anbT{
+        display: block;
+    }
     .dkm{
         display: flex;
         justify-content: space-between;
@@ -619,6 +622,7 @@ footer{
     .anbT{
         font-size: 36px;
     }
+    
     /* .buySell{
         gap: 1%;
     } */
