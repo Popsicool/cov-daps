@@ -529,9 +529,10 @@ footer{
     .d2{
         display: grid;
         grid-template-columns: 1fr;
+        padding-top: 10%;
     }
     .logo-wrap{
-        margin-left: 30%;
+        margin-left: 40%;
     }
     .logo-wrap2{
         margin-left: 0;
@@ -614,7 +615,7 @@ footer{
         width: 193px;
     }
     .tokeni{
-        padding: 2%;
+        padding: 10% 2%;
     }
     /* .buySell{
         gap: 1%;
@@ -644,7 +645,7 @@ footer{
     }
     .ca{
         font-family: GT Ultra;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700;
         line-height: 21px;
         letter-spacing: -0.5799999833106995px;
@@ -653,7 +654,7 @@ footer{
 
     }
     .anOut{
-        margin: 0 2%;
+        margin: 25% 0;
         padding: 2% 10%;
         border-radius: 24px;
         line-height: 1.5rem;
@@ -661,6 +662,7 @@ footer{
         display: grid;
         place-items: center;
         text-align: center;
+        width: 95%;
     }
     .jP{
         padding-top: 5%
