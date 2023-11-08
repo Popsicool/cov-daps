@@ -444,6 +444,9 @@ footer{
 .mb{
     display: none;
 }
+.anbT2{
+    display: none;
+}
 @media screen and (max-width: 1024px){
     .d1{
         height: 500px;
