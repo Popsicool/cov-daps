@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@100;400&display=swap');
 @font-face{
     font-family: 'GT Ultra';
-    src: url('./FONTS/GTUltra-Regular.otf');
+    src: url('./FONTS/GTUltraMedian-Bold.otf');
 }
 .inter{
     font-family: 'Inter';
@@ -82,7 +82,7 @@ nav{
     gap: 27px;
 }
 .d1{
-    background-image: url("./img/nbg.png");
+    background-image: url("./img/desktop\ hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -139,6 +139,9 @@ nav{
     letter-spacing: -1.5800000429153442px;
     text-align: center;
     -webkit-text-stroke: 4px  #A87130;
+    /* width: 478px; */
+
+
 }
 .ambT2{
     display: none;
@@ -483,6 +486,7 @@ footer{
     }
     .d1{
         height: 280px;
+        background: url('./img/mobile\ hero.jpg')
     }
     
     .d1Text{
