@@ -537,7 +537,8 @@ footer{
     }
     .d1{
         height: 280px;
-        background: url('./img/mobile\ hero.jpg')
+        background: url('./img/mobile\ hero.jpg');
+        margin-top: 0;
     }
     
     .d1Text{
