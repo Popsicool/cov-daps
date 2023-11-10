@@ -95,6 +95,7 @@ nav,.soc{
 }
 nav{
     padding: 33px 5%;
+    padding-bottom: 0;
     background: #000000;
 }
 .logo-wrap{
@@ -128,14 +129,15 @@ nav{
     background-position: center;
     background-size: cover;
     width: 100%;
+    margin-top: -150px;
     height: 794px;
     display: grid;
-    /* place-items: center; */
+    place-items: center;
 }
 .ddd{
     background: transparent;
     display: grid;
-    padding-top: 20%;
+    padding-top: 10%;
     place-items: center;
 }
 .d1Text{
@@ -610,6 +612,9 @@ footer{
         margin: 2%;
         margin-top: 20%;
     }
+    .ddd{
+        padding-top: 20%;
+    }
     .mb, .mb p, .mb div{
         background-color: #361608;
     }
@@ -624,7 +629,7 @@ footer{
         
     }
     .za2{
-        font-family: GT Ultra;
+        font-family: GT Mid;
         font-size: 16px;
         font-weight: 300;
         line-height: 26px;
