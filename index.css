@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #000000;
+    /* background: #000000; */
     color: #ffffff;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@100;400&display=swap');
@@ -11,6 +17,40 @@
     font-family: 'GT Ultra';
     src: url('./FONTS/GTUltra-Black.otf');
 }
+@font-face{
+    font-family: 'GT Mid';
+    src: url('./FONTS/GTUltra-Regular.otf');
+}
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+
+video {
+    object-fit: cover;
+    width: 100%; /* Ensure the video takes up the entire width of its container */
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .inter{
     font-family: 'Inter';
     font-size: 22px;
@@ -55,6 +95,7 @@ nav,.soc{
 }
 nav{
     padding: 33px 5%;
+    background: #000000;
 }
 .logo-wrap{
     width: 71.83px;
@@ -88,9 +129,8 @@ nav{
     background-size: cover;
     width: 100%;
     height: 794px;
-    top: 125px;
     display: grid;
-    place-items: center;
+    /* place-items: center; */
 }
 .ddd{
     background: transparent;
@@ -170,6 +210,7 @@ nav{
     display: grid;
     padding: 0 5%;
     grid-template-columns: 2fr 1fr;
+    width: 100%;
 }
 .d22O{
     position: relative;
@@ -185,7 +226,7 @@ nav{
     padding: 3%;
 }
 .con{
-    font-family: GT Ultra;
+    font-family: GT Mid;
     font-size: 22px;
     font-weight: 300;
     line-height: 34px;
@@ -210,7 +251,7 @@ nav{
     width:60%
 }
 .welcome{
-    font-family: GT Ultra;
+    font-family: GT Mid;
     font-size: 22px;
     font-weight: 400;
     line-height: 34px;
@@ -290,7 +331,7 @@ nav{
 .dotdot{
     list-style: circle;
     color: #DAD3A6;
-    
+    font-family: GT mid;
 }
 .ca{
     font-family: GT Ultra;
@@ -319,6 +360,7 @@ nav{
     z-index: 1000;
 
 }
+
 .omgOut{
     position: relative;
 }
@@ -549,7 +591,7 @@ footer{
         height: 30px;
     }
     .welcome{
-        font-family: GT Ultra;
+        font-family: GT Mid;
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
@@ -648,6 +690,7 @@ footer{
         width: 100%;
     }
     .dotdot{
+        font-family: GT mid;
         list-style: none;
         padding-bottom: 2%;
         border: none;
